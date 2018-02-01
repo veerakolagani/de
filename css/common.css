@@ -1,0 +1,501 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{ margin: 0px auto; padding: 0px; font-family: roboto;}
+h1, h2, h3, h4, h5, h6, p{margin: 0px auto; padding: 0px;}
+label{margin:0 0 0 5px; display:block !important; font-size: initial; color: initial; font-family: initial;}
+input, textarea, select{margin:0px 0 12px 0 !important;}
+select, option{color:#cbcbcb;}
+.artist-info textarea{
+    border: auto;
+}
+.datentime{
+display: inline;
+}
+#container{margin: 0px auto; padding: 0px; width: 1140px;}
+.button-public{
+	width:45%;
+	background:#d1cfd0;
+	border:1px solid #000 !important;
+	float:left; 
+	color:#5f5f5f;
+	margin: 0 57px 10px 0;
+}
+.common .form-control{
+    background: transparent;	
+    line-height: 1.3 !important;
+}
+
+/*create img*/
+ #div_create_event {
+            margin: 17px 0;
+        }
+
+        #img_preview_td img{
+            height: 150px;
+            width: 150px;
+            border-radius: 50%;
+            background: rgba(0,0,0,.4);
+            content: 'hello';
+        }
+        input.artist-pic{
+            display: none;
+        }
+        .artist-img,.artist-info{
+            float: left;
+        }
+        .artist-img{
+            float:left;
+            width: 30%;
+            margin-right: 20px;
+            position: relative;
+        }
+        .artist-info{
+            float: right;
+            width: 65%;
+            
+        }
+        .add_profile{
+            clear: both;
+            margin:20px 0;
+        }
+        .add-artist{
+    clear: both;
+    float: right;
+    margin: 10px;
+        }
+        .artist-row{
+            clear: both;
+            margin-bottom: 20px;
+        }
+/*toggle*/
+div  p{
+  display: none ;
+  }
+  .fl-right{
+        display: inline !important;
+  }
+  
+.fa-style, .remove-ticket{
+    padding: 10px;
+    font-size: 22px !important;
+    color: #8e8e8e !important;
+    padding-top: 18px;
+}
+.eVal
+{
+    display:block;
+	color:red;
+	
+}
+.add-settings-container
+{
+	display:none;
+}
+.setting-public{
+	font-size: 18px !important;
+    margin: 5px 13px 0 0px;
+    clear: both;
+}
+.setting-private{
+	font-size: 18px !important;
+    margin: 5px 13px 0 0px;
+    clear: both;
+}
+.button-private{
+	width:45%;
+	background:#d1cfd0;
+	border:1px solid #000 !important;
+	float:left;
+	color:#5f5f5f;
+	margin: 0 0px 10px 0;
+	
+}
+.date{
+	float:left; margin:0 0 0 5px !important;
+}
+.time{
+	 float:left; margin:0 0 0 5px !important;
+}
+.calendar{
+float: left;
+width: 45%;
+}
+.times{
+float: right;
+width: 45%;
+}
+.ticket-dates
+{
+    	width:31% !important; float:left; margin:0 0 0 5px !important;
+}
+.calendartime
+{
+   float: left;
+   border: 1px solid #d8d8d8;
+   padding: 6px;
+   background: #fff;
+   border-radius: 0 5px 5px 0;
+   border-left: none;
+   margin-left: -3px;
+}
+.calendar:after {
+    font-family: FontAwesome;
+    content: "\f073";
+    margin-left: -30px;
+    padding: 5px;
+    line-height: 2;
+}
+.times:after {
+    font-family: FontAwesome;
+    content: "\f017";
+    margin-left: -30px;
+    padding: 5px;
+    line-height: 2;
+	font-size: 18px;
+}
+
+
+.ticketcalendartime
+{
+   float: left;
+   border: 1px solid #d8d8d8;
+   padding: 10px;
+   background: #fff;
+   border-radius: 0 5px 5px 0;
+   border-left: none;
+   margin-left: -3px;
+}
+.create-event-form{
+	margin:0px auto;
+	padding:20px 0 ;
+	width:582px;
+}
+.custom-select-event {
+    display: inline-block;
+    width: 35%;
+    height: calc(2.25rem + 2px);
+    padding: 0.375rem 1.75rem 0.375rem 0.75rem;
+    line-height: 1.5;
+    color: #495057;
+    vertical-align: middle;
+    background: #f6f7f9 no-repeat right 0.75rem center;
+    background-size: 8px 10px;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+.add-event-pic {
+  position: relative;
+  overflow: hidden;
+  display: inline-block;
+   background: gray;
+   width: 100%;
+   height: 300px;
+  top: 10px;
+}
+
+.add-artist-pic {
+  position: relative;
+  overflow: hidden;
+  display: inline-block;
+  background: gray;
+  width: 100px;
+  height: 100px;
+  top: 10px;
+  -moz-border-radius: 50px;
+  -webkit-border-radius: 50px;
+   border-radius: 50px;
+}
+#artist_photo
+{
+	display:none;
+}
+.img {
+  color: gray;
+  background-color: white;
+  padding: 8px 20px;
+  border-radius: 8px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.add-event-pic input[type=file] {
+  font-size: 100px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  opacity: 0;
+}
+#event_photo
+{
+	display:none;
+}
+.add-artist-pic img{
+	padding:0px;
+	width:100px;
+	height:100px;
+
+}
+.event-btn{
+	
+display:none;
+}
+
+
+
+label.event-pic{
+    position: absolute;
+    z-index: 999;
+    color: white;
+    top: 40%;
+    left: 35%;
+    border: 1px solid white;
+    padding: 10px;
+	display:block;
+}
+ .display-img-upload{
+    position: absolute;
+    z-index: 999;
+    color: white;
+    top: 0%;
+    right: 0%;
+	margin:10px;
+    padding: 10px;
+	display:block;
+}
+.display-img-upload .fa{	
+    float: right;
+    width: 30px;
+    border: 1px solid #fff;
+    padding: 6px;
+    color: #fff;
+}
+ul.img-remove li{
+	list-style-type: none;
+	float: left;
+	margin-right: 5px;
+}
+	
+label.eventimg
+{
+	display:none !important;
+}
+label.artist-pic i{
+    display: none;
+}
+.artist-img:hover label.artist-pic i{
+    display: block;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    left: 35%;
+    z-index: 999;
+    color: #fff;
+    font-size: 25px;
+    cursor: pointer;
+}
+/*.artist-img:hover label.artist-pic{*/
+/*    position: absolute;*/
+/*    top: 17%;*/
+/*    left: 0%;*/
+/*    z-index: 999;*/
+/*    background: rgba(0,0,0, .7);*/
+/*    height: 150px;*/
+/*    width: 150px;*/
+/*    border-radius: 50%;*/
+/*}*/
+label.event-pic:hover{
+	background-color: #5f5f5f;;
+	
+}
+label.event-pic:active
+{
+	box-shadow:2px 3px 10px red;
+}
+.add-event-pic img{
+	padding:0px;
+	width:100%;
+	height:360px;
+
+}
+
+.add-event-mes{
+	color:#d50f0f;
+	font-size:12px;
+	text-align:right;
+	display:block;
+	padding:4px 0 0px 0;
+}
+.add-button-artist{
+	background:#5f5f5f;
+	color:#fff;
+	padding:5px 20px !important; float:right;
+	margin:10px 0 10px 0;
+}
+.add-button{
+	background:#5f5f5f;
+	color:#fff;
+	padding:5px 20px !important; float:right;
+	margin:10px 0 10px 0;
+}
+.input-file{float:left;}
+.input-file-button{margin:0px;}
+.common{clear:both;}
+.custom-select-category {
+    display: inline-block;
+    width: 48%;
+    height: calc(2.25rem + 2px);
+    padding: 0.375rem 1.75rem 0.375rem 0.75rem;
+    line-height: 1.5;
+	margin:0px 17px 0 0 !important;
+
+}
+.custom-select-category1 {
+    display: inline-block;
+    width: 48%;
+    height: calc(2.25rem + 2px);
+    padding: 0.375rem 1.75rem 0.375rem 0.75rem;
+    line-height: 1.5;
+
+}
+.label-ticket{margin:15px 0 10px 5px;}
+.input-left{
+	   width: 36% !important;
+    float: left;
+    margin: 0 22px 0 0px !important;
+}
+.input-right{
+	   width: 36% !important;
+	   float:left;
+    
+}
+.add-button-ticket{
+    float: right;
+	background:#5f5f5f;
+	color:#fff;
+	padding:5px 20px !important; float:left;
+	margin:10px 15px 10px 0;
+	clear:both;
+}
+.checkbox-event{
+	float: left;
+    margin: 6px 7px 0 0 !important;
+}
+.checkbox-label{
+	color:#cbcbcb;
+	padding:0 0 0 20px;
+}
+.setting-button{
+	font-size: 30px !important;
+    margin: -50px 105px 0 -10px;
+    clear: both;
+	color: #5f5f5f;
+    /*float: right;*/
+}
+.add-button-create{
+	background:#5f5f5f;
+	color:#fff;
+	padding:5px 20px !important; float:left;
+	margin:10px 15px 10px 0;
+	
+}
+.file {
+  visibility: hidden;
+  position: absolute;
+}
+.browse{
+	width: 200px !important;
+    float: left;
+}
+.btn-choose {
+    color: #000;
+    background-color: #fff;
+    border-color: #ced4da !important;
+}
+.remove-artist{
+	color: #5f5f5f;
+    font-size: 35px !important;
+    margin: 5px 15px 0 265px;
+    clear: both;
+	float:right;
+}
+.remove-ticket{
+	color: #5f5f5f;
+    margin: 5px 15px 0 15px;
+    clear: both;
+}
+
+.remove_field_setting
+{
+	color: #5f5f5f;
+    font-size: 35px !important;
+    margin: 5px 15px 0 15px;
+    clear: both;
+}
+
+
+
+/* radio*/
+
+
+input:checked+.box-style-radio {
+    border: 1px solid #884fb8;
+    position: relative;
+}
+.ts-radios input {
+    display: none;
+}
+.box-style-radio{	
+    border: 1px solid grey;
+    height: 42px;
+    padding: 10px;
+    width: 272px;
+    background: lightgray;
+    text-align: center;
+    border-radius: 5px;
+}
+
+
+.radio input[type="radio"] {
+  display: none;
+}
+
+.radio label {
+  display: inline-block;
+  background-color: #ddd;
+  padding: 7px 11px;
+  font-family: Arial;
+  font-size: 16px;
+  cursor: pointer;
+}
+.radio label:hover{
+	background-color: darkgrey;
+	
+}
+
+.radio input[type="radio"]:checked+label {
+  background-color: #dc3545;
+  color:white;
+}
+/*remove and change event-pic*/
+.change-container
+{
+	display:none;
+}
+
+.display-img-upload{
+	display:block !important;
+}
+.remove{
+	float:right;
+}
+
+.change{
+	float:right;
+	
+}
+
+
